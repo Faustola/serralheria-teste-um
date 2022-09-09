@@ -5,6 +5,7 @@ let botaoInicio = document.getElementById("inicio");
 let botaoServicos = document.getElementById('ferramentas');
 let botaoTelefone = document.getElementById('telefone');
 let botaoEndereco = document.getElementById('endereco');
+let menu = document.querySelector(".menu");
 
 
 botaoHamburgao.addEventListener('click', function() {
@@ -20,6 +21,18 @@ botaoHamburgao.addEventListener('click', function() {
 });
 
 botaoXis.addEventListener('click', function() {
+
+   botaoInicio.style.cssText="top: 90px";
+   botaoServicos.style.cssText="left: 0";
+   botaoTelefone.style.cssText="left: 0";
+   botaoEndereco.style.cssText="top: 90px";
+
+   botaoHamburgao.style.cssText="width: 55px; height: 50px; top: 90px";
+   botaoXis.style.cssText="width: 0; height: 0; top: 100px";
+   imgXis.style.cssText="width: 0; height: 0";
+});
+
+menu.addEventListener('click', function() {
 
    botaoInicio.style.cssText="top: 90px";
    botaoServicos.style.cssText="left: 0";

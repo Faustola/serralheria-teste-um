@@ -35,7 +35,7 @@ ul li {
     }
 
     header img#hamburgao {
-        position: fixed;
+        position: absolute;
         display: block;
         margin: 0 auto;
         top: 90px;
@@ -52,7 +52,7 @@ ul li {
 
     span#x-menu {
         display: block;
-        position: fixed;
+        position: absolute;
         margin: 0 auto;
         top: 100px;
         right: 0;
@@ -97,7 +97,7 @@ ul li {
     }
 
     nav ul li#inicio {
-        position: fixed;
+        position: absolute;
         display: block;
         top: 90px;
         right: 0;
@@ -107,7 +107,7 @@ ul li {
     }
 
     nav ul li#ferramentas {
-        position: fixed;
+        position: absolute;
         display: block;
         top: 90px;
         right: 0;
@@ -116,7 +116,7 @@ ul li {
     }
 
     nav ul li#telefone {
-        position: fixed;
+        position: absolute;
         display: block;
         top: 90px;
         right: 0;
@@ -125,7 +125,7 @@ ul li {
     }
 
     nav ul li#endereco {
-        position: fixed;
+        position: absolute;
         display: block;
         top: 90px;
         right: 0;
